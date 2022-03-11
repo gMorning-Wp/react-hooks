@@ -2,7 +2,7 @@ import React from "react";
 
 import FatherCpt from "./fatherCpt";
 
-function Example2() {
+function Example4() {
   return (
     <>
       <FatherCpt />
@@ -10,4 +10,4 @@ function Example2() {
   );
 }
 
-export default Example2;
+export default Example4;
