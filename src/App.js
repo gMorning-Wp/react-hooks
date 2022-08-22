@@ -4,7 +4,8 @@ import "./App.css";
 // import Example3 from "./pages/example3";
 // import Example4 from "./pages/example4";
 // import Example5 from "./pages/example5";
-import Example6 from "./pages/example6";
+// import Example6 from "./pages/example6";
+import Example7 from "./pages/example7";
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,9 @@ function App() {
       {/* 例子5  useState中初始值设置不要用一个函数调用 */}
       {/* <Example5 /> */}
       {/* 例子6  useState中异步更新问题 */}
-      <Example6 />
+      {/* <Example6 /> */}
+      {/* 例子7  useLayoutEffect 和useEffect的区别 */}
+      <Example7 />
     </div>
   );
 }
